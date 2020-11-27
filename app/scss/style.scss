@@ -713,6 +713,7 @@
     color: #fff;
     @extend %roboto-400;
     padding: 14px 0;
+    letter-spacing: 2px;
     border: none;
     display: block;
     width: 100%;
@@ -722,6 +723,9 @@
     margin-top: 12px;
     color: $accent;
     display: inline-block;
+  }
+  &__text{
+    margin-bottom: 25px;
   }
 }
 
